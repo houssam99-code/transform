@@ -162,6 +162,11 @@ transform: scaleX(3) skewY(0.2679) skewX(0) scaleY(3) translateX(20) translateY(
     font-weight: bold;
     font-size: 40px;
     backface-visibility: hidden;
+    transition-delay: 1s;
+    transition: 1s;
+}
+.four:hover::after {
+    color: transparent;
 }
 .four:hover {
     transform: rotateY(-180deg);
